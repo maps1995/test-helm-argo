@@ -31,7 +31,7 @@ spec:
   template:
     metadata:
       labels:
-        name: velero
+        name: veleroi2
         app.kubernetes.io/name: {{ include "velero.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/managed-by: {{ .Release.Service }}
