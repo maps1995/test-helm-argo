@@ -26,7 +26,7 @@ spec:
   template:
     metadata:
       labels:
-        name: node-agent
+        name: node-agenti2
         app.kubernetes.io/name: {{ include "velero.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/managed-by: {{ .Release.Service }}
